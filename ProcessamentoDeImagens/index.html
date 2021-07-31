@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="First Steps in Image Processing">
+    <meta name="keywords" content="Image Processing, Computer Graphics, UENP, JavaScript">
+    <meta name="author" content="Bárbara Quesada Santana">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Computação Gráfica</title>
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!--
+        <script src="main.js" defer></script>
+     -->
+    <script src="teste.js" defer></script>
+
+</head>
+
+<body>
+  
+    <div class="container mx-auto">
+        <h1 class="text-center font-bold text-2xl"> First Steps in Image Processing</h1>
+        <div class="mb-4 mt-4">
+            <button class="bg-red-900 text-white py-1 px-2" 
+                id="btnLoad">Load image</button>
+            <button class="bg-gray-400 text-white py-1 px-2" 
+                id="btnSuaveMedia">Suavização pela Média</button>
+            <button class="bg-gray-400 text-white py-1 px-2" 
+                id="btnSuaveMediana">Suavização pela Mediana</button>
+            <button class="bg-gray-700 text-white py-1 px-2" 
+                id="btnGrayNTSC">Escala de Cinza NTSC</button>
+                <button class="bg-gray-700 text-white py-1 px-2" 
+                id="btnMeanGray">Escala de Cinza pela Média</button>
+            <button class="bg-gray-500 text-white py-1 px-2" 
+                id="btnGaussian">Gaussian</button>
+
+                <button class="bg-gray-500 text-white py-1 px-2" 
+                id="btnBin">Binarização</button>
+
+            <button class="bg-gray-900 text-white py-1 px-2" 
+                id="btnRodaImagem">Rotação</button>
+        </div>
+        <div class="flex">
+            <div class="w-1/2 border-2 p-3 mr-3">
+                <img id="image" src="images/yoda.jpg"/>
+            </div>
+            <div class="w-1/2 border-2 p-3">
+                <canvas id="image-canvas"></canvas>
+            </div>
+           
+        </div>
+    </div>
+
+    
+    
+
+</body>
+
+</html>
