@@ -22,8 +22,8 @@ function init() {
     lights[i] = {
       x: Math.ceil(Math.random() * w),
       y: Math.ceil(Math.random() * h),
-      toX: Math.random() * 5 + 1,
-      toY: Math.random() * 5 + 1,
+      toX: Math.random() * 6,
+      toY: Math.random() * 6,
       c: colors[Math.floor(Math.random()*colors.length)],
       size: Math.random() * size
     }
